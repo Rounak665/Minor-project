@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" >
     <title>Log In</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +15,9 @@
 <body>
     <div class="bg-img">
     </div>
+    <img src="./Assets/moon.png" alt="" id="icon">
     <div class="outer-box">
-        <img src="./Assets/moon.png" alt="" id="icon">
+        
         <div class="inner-box">
             <img src="./Assets/OF.png" alt="" id="logo">
             <h1>Welcome Back!</h1>
@@ -33,7 +34,7 @@
                     <div><input type="checkbox" class="checkbox-input form-check-input" id="Remeber Me" name="Remember Me" value="Remember Me">
                     <label for="Remember Me" class="checkbox-label form-check-label">Remember Me</label>
                     </div>
-                    <a href="#">Forgot password?</a>
+                    <a href="#.html">Forgot password?</a>
                 </div>
 
                 <button class="btn btn-primary w-100 py-2 btn2" type="submit">Log in</button>
@@ -41,7 +42,7 @@
             </form>
         </div>
     </div>
-    <!-- <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
         var icon=document.getElementById("icon");
         icon.onclick=function(){
