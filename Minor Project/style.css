@@ -1,4 +1,8 @@
+html{
+    overflow: hidden;
+}
 body {
+    overflow: hidden;
     display: grid;
     height: 100vh;
     margin: 0px;
@@ -35,7 +39,7 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    opacity: 100%;
+    opacity: 90%;
 }
 .outer-box {
     display: flex;
