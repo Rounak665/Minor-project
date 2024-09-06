@@ -184,52 +184,21 @@ input:checked{
     transform: translateY(-30px);
     font-size: 12px;
 }
-@media (max-width: 576px) {
 
-}
- @media (max-width: 768px) {
+@media (max-width: 1200px) {
     body{
-        display: block;
-        height: 100vh;
-        width: 100vw;
-        font-size: 1em;
+        grid-template-columns: 1fr 1fr;
     }
-     .outer-box{
-        position: relative;
-        overflow: hidden;
-        z-index: 1;  
-        
-     }
-     #icon{
-        height: 30px;
+    label{
+        left: 45px !important;
     }
-    #logo{
-        height: 50px;
-        width: 100px;
+    .inputs {
+        width: 80%;
     }
-    label {
-        left: 30px !important;
-        top: 40px !important;
-        
-    }
-    .checkbox-label{
-        top: 50px !important;
-    }
-     
-    .bg-img {
-        position: absolute;
-        overflow: auto; 
-        z-index: -1;
-        height: 100%;
-        width: 100%;
-        opacity: 70%;
-    }
-
-    .outer-box {
-        display: block; /* Change layout to block */
-        position: relative;
-        z-index: 1; /* Ensure it is above the background */
-        padding: 1em; /* Add padding for spacing */
+    
+    
+    .btn2 {
+        width: 80%;
     }
 }
 @media (max-width: 992px) {
@@ -249,25 +218,60 @@ input:checked{
     .inputs {
         width: 90%;
     }
-
+    
     .btn2 {
         width: 90%;
     }
-}
-@media (max-width: 1200px) {
-    body{
-        grid-template-columns: 1fr 1fr;
-    }
     label{
-        left: 50px !important;
-    }
-    .inputs {
-        width: 80%;
-    }
-    
-
-    .btn2 {
-        width: 80%;
+        top: 45px !important;
+        left: 10px !important;
     }
 }
+@media (max-width: 768px) {
+   body{
+       display: block;
+       height: 100vh;
+       width: 100vw;
+       font-size: 1em;
+   }
+    .outer-box{
+       position: relative;
+       overflow: hidden;
+       z-index: 1;  
+       
+    }
+    #icon{
+       height: 30px;
+   }
+   #logo{
+       height: 50px;
+       width: 100px;
+   }
+   label {
+       left: 30px !important;
+       top: 40px !important;
+       
+   }
+   .checkbox-label{
+       top: 50px !important;
+   }
+    
+   .bg-img {
+       position: absolute;
+       overflow: auto; 
+       z-index: -1;
+       height: 100%;
+       width: 100%;
+       opacity: 70%;
+   }
 
+   .outer-box {
+       display: block; /* Change layout to block */
+       position: relative;
+       z-index: 1; /* Ensure it is above the background */
+       padding: 1em; /* Add padding for spacing */
+   }
+}
+@media (max-width: 576px) {
+
+}
