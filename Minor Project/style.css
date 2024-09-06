@@ -233,6 +233,9 @@ input:checked{
         padding: 0.5em; /* Adjust padding for extra-small screens */
         max-width: 90%; /* Make the content width responsive */
     }
+    .bg-img{
+        background-image:none;
+    }
 }
 @media (max-width: 992px) {
     body{
