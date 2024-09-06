@@ -199,6 +199,9 @@ input:checked{
         z-index: 1;  
         
      }
+     .bg-img{
+        background-image: none;
+    }
      #icon{
         height: 30px;
     }
