@@ -191,16 +191,27 @@ input:checked{
         display: block;
         height: 100vh;
         width: 100vw;
+        font-size: 1em;
     }
      .outer-box{
         position: relative;
         overflow: hidden;
         z-index: 1;  
-        /* height: 100%; */
+        
      }
-     .inner-box{
-        /* height: 70%; */
-     }
+     #icon{
+        height: 30px;
+    }
+    #logo{
+        height: 30px;
+        width: 60px;
+    }
+    label {
+        left: 30px !important;
+        top: 40px !important;
+        
+    }
+     
     .bg-img {
         position: absolute;
         overflow: auto; 
@@ -211,30 +222,25 @@ input:checked{
     }
 
     .outer-box {
-        display: block; 
+        display: block; /* Change layout to block */
         position: relative;
-        z-index: 1; 
-        padding: 1em; 
+        z-index: 1; /* Ensure it is above the background */
+        padding: 1em; /* Add padding for spacing */
     }
 }
 @media (max-width: 576px) {
     .outer-box {
-        padding: 0.5em; 
-        max-width: 90%; 
+        padding: 0.5em; /* Adjust padding for extra-small screens */
+        max-width: 90%; /* Make the content width responsive */
     }
 }
 @media (max-width: 992px) {
-     body{
+    body{
         grid-template-columns: 1fr 1fr;
         font-size: 1em;
     }
-    #icon{
-        height: 30px;
-    }
-    #logo{
-        height: 30px;
-        width: 60px;
-    }
+    
+    
     h1{
         font-size: 1.5em;
     }
@@ -253,10 +259,7 @@ input:checked{
     .inputs {
         width: 80%;
     }
-    label {
-        left: 45px !important;
-        
-    }
+    
 
     .btn2 {
         width: 80%;
